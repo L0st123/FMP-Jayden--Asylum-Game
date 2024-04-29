@@ -5,12 +5,11 @@ using UnityEngine;
 public class CubeButton : MonoBehaviour
 {
     public Animator myDoor;
-    public bool Button1;
+   
 
     private void OnMouseUpAsButton()
     {
-        Debug.Log("Button is pressed");
-        Button1 = true;
+        Debug.Log("Button 1 is pressed");
 
         
     }

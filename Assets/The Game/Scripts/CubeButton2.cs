@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CubeButton : MonoBehaviour
+public class CubeButton1 : MonoBehaviour
 {
     public Animator myDoor;
     public bool Button1;
