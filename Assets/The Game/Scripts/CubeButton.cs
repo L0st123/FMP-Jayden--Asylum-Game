@@ -4,16 +4,23 @@ using UnityEngine;
 
 public class CubeButton : MonoBehaviour
 {
-    public Animator myDoor;
-    public bool Button1;
+    public bool button;
+    public Animator animator;
+    
+
+    private void Start()
+    {
+
+        button = false; 
+    }
 
     private void OnMouseUpAsButton()
     {
-        Debug.Log("Button is pressed");
-        Button1 = true;
-
+        Debug.Log("Button " + gameObject.name + " is pressed");
+        button = true;
         
+
     }
-    
+  
     
 }

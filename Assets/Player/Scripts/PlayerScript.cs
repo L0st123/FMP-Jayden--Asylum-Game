@@ -25,7 +25,7 @@ public class PlayerScript : MonoBehaviour
 
     void Start()
     {
-        animator.SetBool("idle", true);
+        
         characterController = GetComponent<CharacterController>();
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
@@ -44,7 +44,7 @@ public class PlayerScript : MonoBehaviour
         float movementDirectionY = moveDirection.y;
         moveDirection = (forward * curSpeedX) + (right * curSpeedY);
 
-        if (Input.GetKey("w") == true)
+       /* if (Input.GetKey("w") == true)
         {
             animator.SetBool("walk", true);
         }
@@ -61,7 +61,7 @@ public class PlayerScript : MonoBehaviour
         {
             animator.SetBool("run", false);
         }
-
+       */
         if (Input.GetButton("Jump") && canMove && characterController.isGrounded)
         {
             moveDirection.y = jumpPower;
