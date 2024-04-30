@@ -23,12 +23,12 @@ public class DoorOpen : MonoBehaviour
             button2.GetComponent<CubeButton>().button && 
             button3.GetComponent<CubeButton>().button)
         {
-            animator.SetTrigger("Open");
+            animator.SetBool("Open", true);
             Debug.Log("Opening Door");
         }
         else
         {
-           
+            animator.SetBool("Open", false);
         }
     }
 }
