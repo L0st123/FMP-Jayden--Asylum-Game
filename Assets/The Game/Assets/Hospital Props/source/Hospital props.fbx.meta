@@ -3,7 +3,147 @@ guid: ccf19469d81b6ad4a8ccca4ed103cf39
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bath
+    second: {fileID: 2100000, guid: 30f11a8ffad97f541b3e44b6d2b1b0eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bedside_table
+    second: {fileID: 2100000, guid: fe6d6a2c031c12249875c15b5d039147, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bedsided_table_door
+    second: {fileID: 2100000, guid: 59f57f0def8d27443995d4d45aac0069, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chair
+    second: {fileID: 2100000, guid: e014c99b9fc538c46b96e2d667b3ac90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chair.001
+    second: {fileID: 2100000, guid: 8b116eeba8d0d3d4e9ba14bd26d9ef3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cupboard 1
+    second: {fileID: 2100000, guid: d2be456184d30b846a19a42bad541f07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cushions
+    second: {fileID: 2100000, guid: 6f8f2eef28688d94e82eeda5205afcfb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Divider
+    second: {fileID: 2100000, guid: 60c74c834f013a34fafd73141aff67ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Drawer_1
+    second: {fileID: 2100000, guid: 27933299a10e8bc48b80fa5ee0089580, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Drawer_2
+    second: {fileID: 2100000, guid: 0324836d47d5f664098aa9c352522e3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Drawer_3
+    second: {fileID: 2100000, guid: b083c6ee3d939d94baf057aa3d0c57b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Drawer_4
+    second: {fileID: 2100000, guid: fbd9940fcb48a654cb6d304de7b626ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Frames
+    second: {fileID: 2100000, guid: 5592e9ae3e4f2dd45aab3e969cd64095, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Left_cupboard_door
+    second: {fileID: 2100000, guid: f074b8bd6a11b0348bfb8a904b5b0570, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Left_cupboard_door.001
+    second: {fileID: 2100000, guid: 5e2fca7806644484396f4ebe9bb04d82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Left_glass_door
+    second: {fileID: 2100000, guid: 7263c79ae59a6e04ea3b9148832375db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Left_glass_door.001
+    second: {fileID: 2100000, guid: 4845848f252b46a4baa837fe7264b095, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mattress
+    second: {fileID: 2100000, guid: 04919292ff40ca24e8796e39dc50a760, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: 460d08882f838ed49a79f950d2f34096, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Painted_wood
+    second: {fileID: 2100000, guid: b27b5add8f047614c82350a7590a40d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Painted_wood.001
+    second: {fileID: 2100000, guid: 34805caf215c96a4f8194322645ece77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paper
+    second: {fileID: 2100000, guid: 4c5c9e45dc52a284cbf642b06a9d3d1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Radiator
+    second: {fileID: 2100000, guid: f1b049882f5abe94ba73bf4a1eb62473, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Right_cupboard_door
+    second: {fileID: 2100000, guid: 2f4eb6582b4262241a2485f94efa4977, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Right_cupboard_door.001
+    second: {fileID: 2100000, guid: 7fe799e1c1448b24d9b61af330336c41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Right_glass_door
+    second: {fileID: 2100000, guid: 8fc530e4252f66148a7a53416fdef241, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Right_glass_door.001
+    second: {fileID: 2100000, guid: 3d72e70eb900cc74f8b188059495efe8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sink
+    second: {fileID: 2100000, guid: 3347420e8e98ba54991a2c4258900c8b, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
