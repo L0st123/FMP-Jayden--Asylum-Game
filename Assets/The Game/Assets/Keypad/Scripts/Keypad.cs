@@ -4,8 +4,8 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace NavKeypad
-{
+//namespace NavKeypad
+//{
     public class Keypad : MonoBehaviour
     {
         [Header("Events")]
@@ -41,7 +41,7 @@ namespace NavKeypad
 
         private string currentInput;
         private bool displayingResult = false;
-        private bool accessWasGranted = false;
+        public bool accessWasGranted = false;
 
         private void Awake()
         {
@@ -128,4 +128,4 @@ namespace NavKeypad
         }
 
     }
-}
+//}
