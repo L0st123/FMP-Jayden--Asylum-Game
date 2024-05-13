@@ -8,12 +8,26 @@ public class DoorOpen : MonoBehaviour
     public GameObject button2;
     public GameObject button3;
     public Animator animator;
-    
-    
+    public AudioSource OpenDoorSound;
+
+    bool soundPlayed;
+
+    private void Start()
+    {
+        soundPlayed = false;
+
+    }
+
 
     void Update()
     {
         DoorOpening();
+
+
+        if( Input.GetKeyDown("y") )
+        {
+            OpenDoorSound.Play();
+        }
     }
 
    void DoorOpening()
@@ -23,12 +37,21 @@ public class DoorOpen : MonoBehaviour
             button2.GetComponent<CubeButton>().button && 
             button3.GetComponent<CubeButton>().button)
         {
-            animator.SetBool("Open", true);
-            Debug.Log("Opening Door");
+            if( soundPlayed==false)
+            {
+                animator.SetBool("Open", true);
+                Debug.Log("Opening Door");
+                OpenDoorSound.Play();
+                soundPlayed = true;
+            }
+
+
         }
         else
         {
-            animator.SetBool("Open", false);
+           //animator.SetBool("Open", false);
+            
         }
     }
+  
 }

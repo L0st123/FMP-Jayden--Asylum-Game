@@ -20,6 +20,7 @@ public class PlayerScript : MonoBehaviour
     private CharacterController characterController;
     public Animator animator;
     public int speed = 2;
+    public AudioSource audioWalking;
 
     private bool canMove = true;
 
@@ -44,15 +45,8 @@ public class PlayerScript : MonoBehaviour
         float movementDirectionY = moveDirection.y;
         moveDirection = (forward * curSpeedX) + (right * curSpeedY);
 
-       /* if (Input.GetKey("w") == true)
-        {
-            animator.SetBool("walk", true);
-        }
-        else
-        {
-            animator.SetBool("walk", false);
-        }
-        if (Input.GetKey(KeyCode.LeftShift) == true)
+       
+        /*if (Input.GetKey(KeyCode.LeftShift) == true)
         {
             animator.SetBool("run", true);
             animator.SetBool("walk", false);

@@ -6,6 +6,7 @@ public class Flashlight : MonoBehaviour
 {
     [SerializeField] GameObject FlashlightLight;
     private bool flashlightEnabled = false;
+    public AudioSource flashlightSource;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +20,7 @@ public class Flashlight : MonoBehaviour
         {
             if (flashlightEnabled == false)
             {
+                flashlightSource.Play();    
                 FlashlightLight.gameObject.SetActive(true);
                 flashlightEnabled = true;
             }

@@ -7,6 +7,7 @@ public class DoorOpen1 : MonoBehaviour
 
     public Animator animator;
     public bool door;
+    public AudioSource DoorOpen; 
     
     
 
@@ -21,6 +22,7 @@ public class DoorOpen1 : MonoBehaviour
         Debug.Log( gameObject.name + " is pressed");
         door = true;
         animator.SetBool("Open", true);
+        DoorOpen.Play();
 
     }
 
